@@ -1,0 +1,54 @@
+{
+  "name": "nodejsfundamentos",
+  "version": "1.0.0",
+  "description": "Prácticas del Curso de Fundamentos de NodeJs de Platzi",
+  "main": "monohilo.js",
+  "scripts": {
+    "monohilo": "nodemon conceptos/monohilo.js",
+    "entorno": "nodemon conceptos/entorno.js",
+    "callback": "nodemon conceptos/async/callback.js",
+    "callbackHell": "nodemon conceptos/async/callbackHell.js",
+    "promises": "nodemon conceptos/async/promises.js",
+    "asyncAwait": "nodemon conceptos/async/asyncAwait.js",
+    "globales": "nodemon conceptos/modulos/globales.js",
+    "console": "nodemon conceptos/modulos/console.js",
+    "procesoHijo": "nodemon conceptos/modulos/procesoHijo.js",
+    "os": "nodemon conceptos/modulos/os.js",
+    "process": "nodemon conceptos/modulos/process.js",
+    "bcrypt": "nodemon conceptos/modulos/bcrypt.js",
+    "moment": "nodemon conceptos/modulos/moment.js",
+    "sharp": "nodemon conceptos/modulos/sharp.js",
+    "buffer": "nodemon conceptos/memory/buffer.js",
+    "stream": "nodemon conceptos/memory/stream.js",
+    "benchMarking": "nodemon trucos/benchMarking.js",
+    "scrapping": "nodemon tools/scrapping.js",
+    "electron": "electron tools/electron",
+    "automation": "nodemon tools/processAutomation.js",
+    "build": "gulp build",
+    "serve": "gulp serve",
+    "default": "gulp",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rafalejandrorh/NodeJsFundamentos.git"
+  },
+  "author": "Rafael Rivero",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rafalejandrorh/NodeJsFundamentos/issues"
+  },
+  "homepage": "https://github.com/rafalejandrorh/NodeJsFundamentos#readme",
+  "devDependencies": {
+    "nodemon": "^3.0.1"
+  },
+  "dependencies": {
+    "bcrypt": "^5.1.1",
+    "electron": "^27.1.0",
+    "gulp": "^4.0.2",
+    "gulp-server-livereload": "^1.9.2",
+    "moment": "^2.29.4",
+    "puppeteer": "^21.5.2",
+    "sharp": "^0.32.6"
+  }
+}
